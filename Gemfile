@@ -12,7 +12,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'bootstrap-sass'
 
 group :development, :text do
-gem 'sqlite3'
+	gem 'sqlite3'
 end
 
 group :production do
