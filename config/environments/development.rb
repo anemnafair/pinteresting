@@ -33,5 +33,8 @@ Rails.application.configure do
   config.assets.raise_runtime_errors = true
 
   # Raises error for missing translations
-  # config.action_view.raise_on_missing_translations = true
+  # config.action_view.raise_on_missing_translations
+
+  # Required for Heroku
+  config.action_mailer.default_url_option = { :host => 'localhost:3000'} 
 end
